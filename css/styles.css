@@ -1,0 +1,353 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Poppins:wght@500;600;700&display=swap');
+
+/*Nav Bar*/ 
+nav {
+  float: right;
+  display: flex;
+  flex-direction: row;
+  background-color: #131D26;
+  width: 100%;
+}
+
+body {
+  background-color: #131D26;
+  size: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  font-style: normal;
+  color: #F2f2f2;
+}
+
+h2 {
+  font-family: "Poppins", Sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  color: #F2F2F2;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+ float: left;
+}
+
+li a {
+  color: #F2F2F2;
+  text-decoration: none;
+  display: block;
+  text-align: right;
+  font-size: 20px;
+  padding: 20px 30px;
+  font-family: "Poppins", sans-serif;
+}
+
+li a:hover {
+  background-color: #082B59
+}
+
+.logo {
+  max-height: 70px;
+  float: left;
+}
+
+/*Home*/ 
+
+.WelcomeBanner {
+  background-image: url(Images/gulp-espresso.jpg);
+  box-shadow: inset 0 0 0 1000px rgba(19,29,38,.4);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: auto;
+  margin: 3%;
+
+}
+
+.WelcomeCard {
+  height: fit-content;
+  width: 40%;
+  padding: 3%;
+}
+
+.WelcomeCard a {
+  background-color: #59331D;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  font-style: normal;
+  color: white;
+  text-decoration: none;
+  line-height: 1.6;
+  letter-spacing: 2px;
+  padding: 3%;
+  border-radius: 8px;
+}
+
+.WelcomeCard p {
+  padding-top: 3%;
+  padding-bottom: 3%;
+
+}
+
+.cardContainer {
+  display: flex;
+  gap: 20px;
+  padding-top: 50px;
+}
+
+.cardImg {
+  width: 100%;
+  object-fit: contain;
+  height: 300px;
+  clip-path: circle(125px at center);
+}
+
+.card {
+  width: 33.33%;
+  width: calc(100% / 3);
+}
+
+.card p {
+  font-family: "lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #F2F2F2;
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 50px;
+}
+
+/*About Us*/ 
+
+.AboutContainer {
+  align-content: center;
+  margin: 3%;
+}
+
+.latte {
+  width:100%;
+}
+
+.AboutUs {
+  background-color: #59331D;
+  text-align: center;
+  line-height: 1.6;
+  letter-spacing: 2px;
+  margin: auto;
+  display: flex;
+  align-content: center;
+  box-shadow: 5px 5px 30px;
+  width: 75%;
+}
+
+.AboutUs h2 {
+  font-family: "Poppins", Sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  color: #F2F2F2;
+}
+
+.AboutUs p {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #F2F2F2;
+  margin: 5%;
+}
+
+.AboutUs a {
+  color: #F2F2F2;
+}
+
+
+
+.contentText {
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+}
+
+
+
+/*Our Products*/
+
+.Products {
+  display: flex;
+  flex-direction: row;
+  margin: 5%;
+}
+
+.ProductCard {
+  background-color: #59331D;
+  margin: 10px;
+  padding: 2%;
+  box-shadow: 5px 5px 30px;  
+}
+
+
+/*Contact Us*/ 
+
+
+
+/*Footer*/ 
+
+.footer {
+  color: #F2F2F2;
+  display: flex;
+  flex-direction: row;
+}
+
+.footerLogo {
+  max-height: 70px;
+  float: left;
+}
+
+.footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: right;
+}
+
+.footer li a:hover{
+  background-color: #082B59
+}
+
+.footer a {
+  color: #F2F2F2;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: 20px;
+  padding: 20px 30px;
+  font-family: "Poppins", sans-serif;
+}
+
+.FooterContainer {
+  width: 100%;
+  display: flex; 
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.FooterCard {
+  font-family: "lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #F2F2F2;
+  letter-spacing: 2px;
+  text-align: center;
+  flex-grow: 3;
+}
+
+.FooterCard h2 {
+  font-family: "Poppins", Sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+  color: #F2F2F2;
+  
+}
+
+.googleMaps {
+  padding: 3%;
+  flex-grow: 2;
+  aspect-ratio: 4/2;
+}
+
+@media (max-width: 1000px) {
+  .AboutUs {
+    flex-direction: column-reverse;
+  }
+
+ 
+
+}
+
+@media (max-width: 800px) {
+  
+
+  .AboutUs {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  
+  .cardContainer {
+    flex-direction: column;
+  }
+
+  .card {
+    width: fit-content;
+  }
+
+  .Products {
+    flex-direction: column;
+  }
+
+  .FooterContainer {
+    flex-direction: column;
+    align-content: center;
+  }
+
+  footer ul {
+    margin: auto;
+    align-content: center;
+  }
+
+  .googleMaps {
+    min-height: 200px;
+  }
+
+@media (max-width: 500px) {
+
+  .WelcomeBanner {
+    background-image: none;
+
+  }
+
+  .WelcomeCard {
+    width: auto;
+  }
+
+  .cardContainer {
+    flex-direction: column;
+  }
+
+  .card {
+    width: fit-content;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    flex-direction: column;
+  }
+
+  .AboutUs {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+}  
+
+
+}
