@@ -2,19 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Poppins:wght@500;600;700&display=swap');
 
 /*Nav Bar*/ 
-nav {
-  float: right;
-  display: flex;
-  flex-direction: row;
-  background-color: #131D26;
-  width: 100%;
-}
+
 
 body {
   background-color: #131D26;
   size: 100%;
-  display: flex;
-  flex-direction: column;
 }
 
 p {
@@ -33,34 +25,10 @@ h2 {
   color: #F2F2F2;
 }
 
-ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
 
-li {
- float: left;
-}
-
-li a {
-  color: #F2F2F2;
-  text-decoration: none;
-  display: block;
-  text-align: right;
-  font-size: 20px;
-  padding: 20px 30px;
-  font-family: "Poppins", sans-serif;
-}
-
-li a:hover {
-  background-color: #082B59
-}
 
 .logo {
   max-height: 70px;
-  float: left;
 }
 
 /*Home*/ 
@@ -114,22 +82,6 @@ li a:hover {
   clip-path: circle(125px at center);
 }
 
-.card {
-  width: 33.33%;
-  width: calc(100% / 3);
-}
-
-.card p {
-  font-family: "lato", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.6;
-  color: #F2F2F2;
-  letter-spacing: 2px;
-  text-align: center;
-  margin: 50px;
-}
-
 /*About Us*/ 
 
 .AboutContainer {
@@ -181,27 +133,18 @@ li a:hover {
   padding: 3%;
 }
 
-
-
 /*Our Products*/
-
-.Products {
-  display: flex;
-  flex-direction: row;
-  margin: 5%;
+.card img {
+  border-width: 0.5em;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
 }
 
-.ProductCard {
-  background-color: #59331D;
-  margin: 10px;
-  padding: 2%;
-  box-shadow: 5px 5px 30px;  
+.card:hover img {
+  border-color: rgba(8, 43, 89, 0.7);
 }
-
 
 /*Contact Us*/ 
-
-
 
 /*Footer*/ 
 
@@ -293,10 +236,6 @@ li a:hover {
     flex-direction: column;
   }
 
-  .card {
-    width: fit-content;
-  }
-
   .Products {
     flex-direction: column;
   }
@@ -330,9 +269,7 @@ li a:hover {
     flex-direction: column;
   }
 
-  .card {
-    width: fit-content;
-  }
+
 
   nav {
     flex-direction: column;
